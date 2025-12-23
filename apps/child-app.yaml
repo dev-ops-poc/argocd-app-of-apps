@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/your-org/gitops-repo.git
+    repoURL: https://github.com/dev-ops-poc/argocd-app-of-apps.git
     targetRevision: main
-    path: config
+    path: apps/config
 
   destination:
     server: https://kubernetes.default.svc
